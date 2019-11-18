@@ -1,0 +1,41 @@
+/*==============
+  DEFAULT CSS
+================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,700&display=swap');
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
